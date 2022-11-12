@@ -9,8 +9,9 @@ def word_by_word(word):
     for i in range(len(word)):
         print(word[i], end = '')
 
+loop=2
 
-while(1<2):
+while(loop<10):
     print('''
     Rock Paper Scissor Game
     -----------------------
@@ -50,3 +51,10 @@ while(1<2):
         word_by_word('YOU win =>')
     else:
         word_by_word("It's a DRAW ")
+
+    print('Do you want to play again? (Y/N)')
+    ans = input()
+    if ans == 'n' or ans == 'N':
+        break
+    else:
+        loop=2
