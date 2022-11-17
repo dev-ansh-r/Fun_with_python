@@ -13,7 +13,7 @@ frame.pack()
 frame.place(anchor='center', relx=0.5, rely=0.5)
 
 # Create an object of tkinter ImageTk
-img = ImageTk.PhotoImage(Image.open("kgxlogo.png"))
+img = ImageTk.PhotoImage(Image.open("kgx.jpg"))
 
 
 # Create a Label Widget to display the text or Image

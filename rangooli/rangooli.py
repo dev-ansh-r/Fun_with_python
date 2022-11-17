@@ -3,7 +3,7 @@ import turtle
 colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
 t = turtle.Turtle()
 turtle.bgcolor('black')
-t.speed(10)
+t.speed(100)
 length = 100
 angle = 50
 size = 5
